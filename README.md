@@ -86,7 +86,7 @@ NOTICE.md                   Trademark and excluded-media boundaries
 - synthetic narration and application-video production files;
 - any claim that proposed AI or pilot activity already exists.
 
-The full audit and source-package hashes are recorded in [docs/SOURCE-AUDIT.md](docs/SOURCE-AUDIT.md).
+The public release decisions and verification results are recorded in [docs/SOURCE-AUDIT.md](docs/SOURCE-AUDIT.md).
 
 ## Licensing
 
