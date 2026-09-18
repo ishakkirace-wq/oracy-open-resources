@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#29184f">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Open Oracy Classroom</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <script src="activities/sleeping-dragon-core.js" defer></script>
+  <script src="activities/sleeping-dragon.js" defer></script>
+  <script src="activities/magic-train.js" defer></script>
+  <script src="activities/listening-detectives.js" defer></script>
+  <script src="activities/story-machine.js" defer></script>
+  <script src="activities/emotion-studio.js" defer></script>
+  <script src="activities/describe-draw.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <button class="wordmark" type="button" data-home aria-label="Open Oracy Classroom home">
+      <span>open oracy</span><b>classroom</b>
+    </button>
+    <span class="status-badge">Reference implementation</span>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+  <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <footer class="site-footer">
+    <span>Local-first classroom activities</span>
+    <span>No accounts · no analytics · no AI inference</span>
+  </footer>
+  <noscript>This prototype requires JavaScript, but it does not require an account or an internet connection after loading.</noscript>
+</body>
+</html>
